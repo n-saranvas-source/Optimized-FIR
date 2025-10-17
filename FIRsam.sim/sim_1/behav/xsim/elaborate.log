@@ -1,0 +1,39 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fir_tb5_behav xil_defaultlib.fir_tb5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 's' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:48]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 's' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:49]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 's' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:50]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 's' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:51]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipo
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.reg_bank_shift
+Compiling module xil_defaultlib.halfadder
+Compiling module xil_defaultlib.twobit_vedic
+Compiling module xil_defaultlib.CLA_4bit
+Compiling module xil_defaultlib.CLA_6bit
+Compiling module xil_defaultlib.fourbitvedic
+Compiling module xil_defaultlib.buff
+Compiling module xil_defaultlib.carrygen
+Compiling module xil_defaultlib.carry
+Compiling module xil_defaultlib.sum
+Compiling module xil_defaultlib.eightbitBKA
+Compiling module xil_defaultlib.twelvebitBKA
+Compiling module xil_defaultlib.eightbitvedic
+Compiling module xil_defaultlib.carry_skip
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.CSA
+Compiling module xil_defaultlib.pipo2
+Compiling module xil_defaultlib.fir_datapath
+Compiling module xil_defaultlib.fir_controller
+Compiling module xil_defaultlib.fir_tb5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fir_tb5_behav

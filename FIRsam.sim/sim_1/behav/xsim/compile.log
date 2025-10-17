@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/CLA_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/CLA_6bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA_6bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/CSA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/addfourbit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightbitBKA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/buff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/carry.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/carry_skip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry_skip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/carrygen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carrygen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fir_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fir_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/firdatapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fir_datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourbitvedic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/halfadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/multi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightbitvedic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/pipo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/pipo2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipo2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/reg_bank_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_bank_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/sum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sum
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/twelvebitBKA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twelvebitBKA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/twobitvedic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twobit_vedic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sim_1/new/firtb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fir_tb5

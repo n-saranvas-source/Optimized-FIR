@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FIRsam.srcs/sources_1/new/CLA_4bit.v" \
+"../../../../FIRsam.srcs/sources_1/new/CLA_6bit.v" \
+"../../../../FIRsam.srcs/sources_1/new/CSA.v" \
+"../../../../FIRsam.srcs/sources_1/new/DFF.v" \
+"../../../../FIRsam.srcs/sources_1/new/addfourbit.v" \
+"../../../../FIRsam.srcs/sources_1/new/buff.v" \
+"../../../../FIRsam.srcs/sources_1/new/carry.v" \
+"../../../../FIRsam.srcs/sources_1/new/carry_skip.v" \
+"../../../../FIRsam.srcs/sources_1/new/carrygen.v" \
+"../../../../FIRsam.srcs/sources_1/new/fir_controller.v" \
+"../../../../FIRsam.srcs/sources_1/new/firdatapath.v" \
+"../../../../FIRsam.srcs/sources_1/new/fourbitvedic.v" \
+"../../../../FIRsam.srcs/sources_1/new/halfadder.v" \
+"../../../../FIRsam.srcs/sources_1/new/multi.v" \
+"../../../../FIRsam.srcs/sources_1/new/mux.v" \
+"../../../../FIRsam.srcs/sources_1/new/pipo.v" \
+"../../../../FIRsam.srcs/sources_1/new/pipo2.v" \
+"../../../../FIRsam.srcs/sources_1/new/reg_bank_shift.v" \
+"../../../../FIRsam.srcs/sources_1/new/sum.v" \
+"../../../../FIRsam.srcs/sources_1/new/twelvebitBKA.v" \
+"../../../../FIRsam.srcs/sources_1/new/twobitvedic.v" \
+"../../../../FIRsam.srcs/sim_1/new/firtb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

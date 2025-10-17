@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fir_tb5_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fir_tb5" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="394.001 ns"></ZoomEndTime>
+      <Cursor1Time time="189.850 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/fir_tb5/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/y_ld" type="logic">
+      <obj_property name="ElementShortName">y_ld</obj_property>
+      <obj_property name="ObjectShortName">y_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/D_ld" type="logic">
+      <obj_property name="ElementShortName">D_ld</obj_property>
+      <obj_property name="ObjectShortName">D_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/D_mov" type="logic">
+      <obj_property name="ElementShortName">D_mov</obj_property>
+      <obj_property name="ObjectShortName">D_mov</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/D_sft" type="logic">
+      <obj_property name="ElementShortName">D_sft</obj_property>
+      <obj_property name="ObjectShortName">D_sft</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb5/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

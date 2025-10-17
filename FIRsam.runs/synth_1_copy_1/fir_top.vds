@@ -1,0 +1,297 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Nov 30 18:06:46 2024
+# Process ID: 12548
+# Current directory: C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.runs/synth_1_copy_1
+# Command line: vivado.exe -log fir_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_top.tcl
+# Log file: C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.runs/synth_1_copy_1/fir_top.vds
+# Journal file: C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.runs/synth_1_copy_1\vivado.jou
+# Running On: LAPTOP-88OTEAF1, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 2, Host memory: 8215 MB
+#-----------------------------------------------------------
+source fir_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 460.082 ; gain = 185.895
+Command: read_checkpoint -auto_incremental -incremental C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/utils_1/imports/synth_1/fir_datapath.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/utils_1/imports/synth_1/fir_datapath.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top fir_top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 19360
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1293.238 ; gain = 439.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fir_top' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fir_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fir_datapath' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/firdatapath.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pipo' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/pipo.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'pipo' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/pipo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/DFF.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/DFF.v:4]
+INFO: [Synth 8-6157] synthesizing module 'reg_bank_shift' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/reg_bank_shift.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'reg_bank_shift' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/reg_bank_shift.v:2]
+INFO: [Synth 8-6157] synthesizing module 'eightbitvedic' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/multi.v:14]
+INFO: [Synth 8-6157] synthesizing module 'fourbitvedic' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:4]
+INFO: [Synth 8-6157] synthesizing module 'twobit_vedic' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/twobitvedic.v:3]
+INFO: [Synth 8-6157] synthesizing module 'halfadder' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/halfadder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'halfadder' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/halfadder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'twobit_vedic' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/twobitvedic.v:3]
+WARNING: [Synth 8-689] width (4) of port connection 's' does not match port width (5) of module 'twobit_vedic' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:15]
+WARNING: [Synth 8-689] width (4) of port connection 's' does not match port width (5) of module 'twobit_vedic' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:16]
+WARNING: [Synth 8-689] width (4) of port connection 's' does not match port width (5) of module 'twobit_vedic' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:17]
+WARNING: [Synth 8-689] width (4) of port connection 's' does not match port width (5) of module 'twobit_vedic' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:18]
+INFO: [Synth 8-6157] synthesizing module 'addfourbit' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/addfourbit.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'addfourbit' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/addfourbit.v:4]
+INFO: [Synth 8-6157] synthesizing module 'sixbitadder' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/sixbitadder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'sixbitadder' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/sixbitadder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'fourbitvedic' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fourbitvedic.v:4]
+INFO: [Synth 8-6157] synthesizing module 'eightadder' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/eightadder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'eightadder' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/eightadder.v:3]
+INFO: [Synth 8-6157] synthesizing module 'twelveadder' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/twelveadder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'twelveadder' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/twelveadder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'eightbitvedic' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/multi.v:14]
+INFO: [Synth 8-6157] synthesizing module 'BKA' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/BKA.v:3]
+INFO: [Synth 8-6157] synthesizing module 'buff' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/buff.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'buff' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/buff.v:4]
+INFO: [Synth 8-6157] synthesizing module 'carrygen' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/carrygen.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'carrygen' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/carrygen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'carry' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/carry.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'carry' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/carry.v:4]
+INFO: [Synth 8-6157] synthesizing module 'sum' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/sum.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'sum' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/sum.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'BKA' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/BKA.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pipo2' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/pipo2.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'pipo2' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/pipo2.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'fir_datapath' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/firdatapath.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fir_controller' [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fir_controller.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'fir_controller' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fir_controller.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'fir_top' (0#1) [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/sources_1/new/fir_top.v:1]
+WARNING: [Synth 8-7129] Port s[4] in module twobit_vedic is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1403.113 ; gain = 549.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1403.113 ; gain = 549.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1403.113 ; gain = 549.832
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1403.113 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/constrs_1/new/fir.xdc]
+Finished Parsing XDC File [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/constrs_1/new/fir.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.srcs/constrs_1/new/fir.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fir_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fir_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1505.367 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1505.367 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:40 ; elapsed = 00:00:57 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:40 ; elapsed = 00:00:57 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:57 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'fir_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                            00001 |                              000
+                      s1 |                            00010 |                              001
+                      s2 |                            00100 |                              010
+                      s3 |                            01000 |                              011
+                      s4 |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'fir_controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:58 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   12 Bit       Adders := 10    
+	   2 Input    8 Bit       Adders := 5     
+	   2 Input    6 Bit       Adders := 40    
+	   2 Input    4 Bit       Adders := 20    
+	   2 Input    1 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 224   
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:01:16 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:32 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:32 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:32 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:20 ; elapsed = 00:01:48 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:20 ; elapsed = 00:01:48 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:20 ; elapsed = 00:01:48 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:20 ; elapsed = 00:01:48 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:20 ; elapsed = 00:01:48 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:20 ; elapsed = 00:01:48 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT2   |    14|
+|4     |LUT3   |    14|
+|5     |LUT4   |    41|
+|6     |LUT5   |    30|
+|7     |LUT6   |    45|
+|8     |FDCE   |    29|
+|9     |FDPE   |     1|
+|10    |FDRE   |    37|
+|11    |IBUF   |    11|
+|12    |OBUF   |    17|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:20 ; elapsed = 00:01:48 . Memory (MB): peak = 1505.367 ; gain = 652.086
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:03 ; elapsed = 00:01:43 . Memory (MB): peak = 1505.367 ; gain = 549.832
+Synthesis Optimization Complete : Time (s): cpu = 00:01:20 ; elapsed = 00:01:49 . Memory (MB): peak = 1505.367 ; gain = 652.086
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1505.367 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1505.367 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a667e14e
+INFO: [Common 17-83] Releasing license: Synthesis
+63 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:26 ; elapsed = 00:02:14 . Memory (MB): peak = 1505.367 ; gain = 1041.340
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1505.367 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/htara/OneDrive/Desktop/VIVA/FIRsam/FIRsam.runs/synth_1_copy_1/fir_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fir_top_utilization_synth.rpt -pb fir_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 30 18:09:18 2024...
